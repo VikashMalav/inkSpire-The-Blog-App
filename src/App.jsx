@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom'
 import { Header,Footer } from './components'
 
 const App = () => {
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
 
   const dispatch = useDispatch()
 
