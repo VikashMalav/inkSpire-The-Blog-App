@@ -3,4 +3,14 @@ import Footer from './Footer/Footer'
 import Container from './container/Container'
 import LogoutBtn from './Header/LogoutBtn' 
 import Logo from './Header/Logo'
-export {Header,Footer,Container,LogoutBtn,Logo}
+import RTE from './RTE'
+import Select from './Select'
+import PostCard from './PostCard'
+import Input from './Input'
+import Button from './Button'
+import Login from './Login'
+import SignUp from './SignUp'
+import PostForm from './PostForm/PostForm'
+import AuthLayout from './AuthLayout'
+
+export {Header,PostForm,Footer,Container,LogoutBtn,Logo,RTE,Button,Select,PostCard,Login,SignUp,Input,AuthLayout}
